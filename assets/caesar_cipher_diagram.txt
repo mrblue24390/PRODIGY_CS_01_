@@ -1,0 +1,12 @@
+Caesar Cipher Visualization (Shift=3)
+
+Plaintext:  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Ciphertext: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+Example:
+  HELLO → KHOOR
+  H(7) → K(10) = (7+3) mod 26
+  E(4) → H(7)  = (4+3) mod 26
+  L(11)→ O(14) = (11+3) mod 26
+  L(11)→ O(14) = (11+3) mod 26
+  O(14)→ R(17) = (14+3) mod 26
