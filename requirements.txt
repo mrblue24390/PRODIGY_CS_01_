@@ -1,0 +1,9 @@
+# Caesar Cipher Project
+# No external dependencies required for basic functionality
+
+# Optional for enhanced features:
+# pytest>=7.0.0  # For testing
+# colorama>=0.4.6  # For colored terminal output
+
+# Core requirement
+python>=3.8

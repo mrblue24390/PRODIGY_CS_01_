@@ -1,0 +1,59 @@
+# Caesar Cipher Algorithm Explanation
+
+## Overview
+The Caesar Cipher is a substitution cipher where each letter in the plaintext is shifted by a fixed number of positions down the alphabet.
+
+## Mathematical Foundation
+
+### Encryption Formula
+For each letter at position `x` (where A=0, B=1, ..., Z=25):
+E(x) = (x + n) mod 26
+
+### Decryption Formula
+
+D(x) = (x - n) mod 26
+
+
+
+Where `n` is the shift value (key).
+
+## Implementation Details
+
+### Character Handling
+- **Uppercase letters**: ASCII 65-90 (A-Z)
+- **Lowercase letters**: ASCII 97-122 (a-z)
+- **Non-alphabetic**: Preserved unchanged
+
+### Algorithm Steps
+
+1. **Input Processing**:
+   - Read plaintext/ciphertext
+   - Validate shift value (0-25)
+
+2. **Character Transformation**:
+   For each character:
+
+3. **Output Generation**:
+- Combine transformed characters
+- Return result
+
+## Security Analysis
+
+### Strengths
+- Simple to understand and implement
+- Fast encryption/decryption
+
+### Weaknesses
+- Only 25 possible keys (very weak)
+- Vulnerable to frequency analysis
+- No modern security applications
+
+## Historical Context
+- Used by Julius Caesar (100-44 BC)
+- First documented use in military communications
+- Foundation for more complex ciphers
+
+## Modern Relevance
+- Teaching cryptography concepts
+- Simple obfuscation (not security)
+- Programming exercises
